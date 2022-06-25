@@ -42,7 +42,7 @@ stateDiagram-v2
 <br>
 <br>
 
-![KalecgosMap](https://cdn.discordapp.com/attachments/775973769537126412/990354898421964880/Screen_Shot_2022-06-25_at_1.26.34_PM.png)
+![KalecgosMap](https://cdn.discordapp.com/attachments/775973769537126412/990375252431364146/Screen_Shot_2022-06-25_at_1.26.34_PM.png)
 <br>
 <br>
 
@@ -126,7 +126,7 @@ stateDiagram-v2
 
 # Twins
 
-![TwinsMap](https://cdn.discordapp.com/attachments/775973769537126412/990368979430309978/Screen_Shot_2022-06-25_at_2.32.23_PM.png)
+![TwinsMap](https://cdn.discordapp.com/attachments/775973769537126412/990375297964736522/Screen_Shot_2022-06-25_at_2.32.23_PM.png)
 
 <br>
 <br>
