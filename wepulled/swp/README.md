@@ -93,7 +93,7 @@ stateDiagram-v2
     r3: Victra
     r4: Kepa
     r5: Akugi
-    r6: Rich
+    r6: Corntallis
 
     t1 --> h1
     t1 --> h2
@@ -116,10 +116,10 @@ stateDiagram-v2
 
 | Group :x: | Group :small_red_triangle_down: | Group :large_orange_diamond: | Group :large_blue_circle: |
 | ----------- | ----------- | ----------- | ----------- |
-| Melee Group | Behrmy | Mage Group | Hunters except Rich |
-| Manatide | Bearbob | Beek | Warlocks except Shar/Brooks |
-| | Rich | | Exhaustion |
-| | Shar/Brooks | | Junzi |
+| Melee Group [G1]| Hunter Group [G2]| Mage Group [G4]| Warlock Group [G3]|
+| Exhaustion | Elji | | Behrmy |
+| | Stud | | Bearbob |
+| | | | |
 
 <br>
 <br>
@@ -167,11 +167,11 @@ journey
 journey
     title Hero Timeline
     section Phase 3 (85-55%)
-      [OPTIONAL] Hero Melee & DPS boss: 7: TODO
+      [OPTIONAL] Hero Melee & DPS boss: 7: N/A
     section Phase 4 (55-25%)
       Hero Melee & DPS boss: 7: Bamm
-      [30sec] Hero Range & Kill adds/boss: 7: Levi/Jun/Ref
-      [After 1st Shield] Hero Melee & Push: 7: Manatide
+      [30sec] Hero Range & Kill adds/boss: 7: Levi/Jun/Mana
+      [After 1st Shield] Hero Melee & Push: 7: Exhaustion
 ```
 
 
