@@ -133,6 +133,25 @@ stateDiagram-v2
 
 # Muru
 
+```mermaid
+gantt
+    title [3min Kill] Muru P1 Adds
+    dateFormat  mm:ss
+    axisFormat %M:%S
+
+    section 1st 1min
+    Nothing         :done, p1, 00:00, 10s
+    Humanoids 1     :crit, h1, after p1, 1m
+    Sentinel 1      :s1, 00:30, 30s
+    Darkness 1      :active, d1, 00:45, 20s
+
+    section 2nd 1min
+    Sentinel 2      :s2, after s1, 30s
+    Humanoids 2     :crit, h2, after h1, 1m
+    Sentinel 3      :s3, after s2, 30s
+    Darkness 2      :active, d2, 01:30, 20s
+```
+
 ![MuruP2Map](https://cdn.discordapp.com/attachments/775973769537126412/990372769868947556/Screen_Shot_2022-06-25_at_2.47.07_PM.png)
 
 <br>
@@ -153,9 +172,9 @@ journey
       [OPTIONAL] Hero Melee & DPS boss: 5: Melee
       [30sec] Stack for breath & watch FB: 3: Range, Melee, Healer
     section Phase 4 (55-25%)
-      Hero Melee & DPS boss: 5: Melee
-      [30sec] Hero Range & Kill adds/boss: 4: Range
-      [After 1st Shield] Hero Melee & Push: 2: Melee
+      Hero ALL DPS groups: 5: Melee, Range
+      [30sec] Stack for breath: 4: Melee, Range, Healer
+      [After 1st Shield] Hero Warlock & Push: 2: Range
     section Phase 5 (<25%)
       Survive & Win!: 4: Range, Melee, Healer
 ```
@@ -169,9 +188,8 @@ journey
     section Phase 3 (85-55%)
       [OPTIONAL] Hero Melee & DPS boss: 7: N/A
     section Phase 4 (55-25%)
-      Hero Melee & DPS boss: 7: Bamm
-      [30sec] Hero Range & Kill adds/boss: 7: Levi/Jun/Mana
-      [After 1st Shield] Hero Melee & Push: 7: Exhaustion
+      Hero ALL DPS groups: 7: Bamm, Levi, Junzi, Mana
+      [After 1st Shield] Hero Warlock & Push: 7: Exhaustion
 ```
 
 
