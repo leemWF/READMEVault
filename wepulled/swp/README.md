@@ -1,3 +1,15 @@
+# Start
+
+## Soulstone 
+
+```mermaid
+flowchart LR
+    A(Firedestruct) --> B(Elji)
+    C(Shar) --> D(Pickii)
+    E(Brooks) --> F(Abe)
+    G(Zarj) --> H(Stud)
+```
+
 # Kalecgos
 
 ```mermaid
@@ -66,14 +78,14 @@ stateDiagram-v2
     rr5: Brooks
     rr6: Zarj
     
-    h4 --> t2
+    rr5 --> t2
+    h4 --> rr5
     h5 --> t2
     h6 --> t2
-    rr1 --> h4
-    rr2 --> h4
+    rr1 --> rr3
+    rr2 --> rr4
     rr3 --> h5
     rr4 --> h5
-    rr5 --> h6
     rr6 --> h6
 ```
 
@@ -89,10 +101,10 @@ stateDiagram-v2
     h2: Levi
     h3: Exhaustion
     r1: Dan
-    r2: Twyrp
+    r2: Refinement
     r3: Victra
     r4: Kepa
-    r5: Akugi
+    r5: Rich
     r6: Corntallis
 
     t1 --> h1
@@ -117,9 +129,26 @@ stateDiagram-v2
 | Group :x: | Group :small_red_triangle_down: | Group :large_orange_diamond: | Group :large_blue_circle: |
 | ----------- | ----------- | ----------- | ----------- |
 | Melee Group [G1]| Hunter Group [G2]| Mage Group [G4]| Warlock Group [G3]|
-| Exhaustion | Elji | | Behrmy |
+| Exhaustion | Elji | Manatide | Behrmy |
 | | Stud | | Bearbob |
 | | | | |
+
+## Soulstone 
+
+```mermaid
+flowchart LR
+    A(Firedestruct) --> B(Elji)
+    C(Shar) --> D(Firechild)
+    E(Brooks) --> F(Behrmy)
+    G(Zarj) --> H(Stud)
+```
+
+## Priest Brez 
+
+```mermaid
+flowchart LR
+    A(Bearbob) --> B(Victra)
+```
 
 <br>
 <br>
@@ -186,9 +215,9 @@ journey
 journey
     title Hero Timeline
     section Phase 3 (85-55%)
-      [OPTIONAL] Hero Melee & DPS boss: 7: N/A
+      [OPTIONAL] Hero Melee & DPS boss: 7: Mana
     section Phase 4 (55-25%)
-      Hero ALL DPS groups: 7: Bamm, Levi, Junzi, Mana
+      Hero ALL DPS groups: 7: Bamm, Levi, Junzi, Refine
       [After 1st Shield] Hero Warlock & Push: 7: Exhaustion
 ```
 
