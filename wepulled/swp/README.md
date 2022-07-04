@@ -188,7 +188,7 @@ gantt
 
 # KJ
 
-![KJMap](https://cdn.discordapp.com/attachments/945886124784644156/988662912614805583/KilJaeden___RaidPlan.io_-_Google_Chrome_6_20_2022_9_25_52_PM.png)
+![KJMap](https://cdn.discordapp.com/attachments/775973769537126412/993644162941464666/KilJaeden___RaidPlan.io_-_Google_Chrome_7_4_2022_3_26_04_PM.png)
 
 ```mermaid
 journey
