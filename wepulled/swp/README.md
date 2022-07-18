@@ -36,12 +36,12 @@ gantt
     Levi +  Elji     :crit, 01:00, 1m
 
     section Portal 4
-    Exhaustion + Beek      :crit, p4, 01:30, 1m
+    Exhaustion      :crit, p4, 01:30, 1m
 ```
 
 :fire: Attention :fire:
-- Portal 4 healers do not enter portal until Portal 1 healers teleport back
-- More attention on dragon tank healing since no pally healer
+- After 1st full portal rotation, wait for Blair's callout before further pushing the dragon
+- Hybrid classes help with raid healing
 
 <details>
 <summary>Click for healer assignment details</summary>
@@ -56,11 +56,9 @@ stateDiagram-v2
     s4: Elji stays up
     s3 --> s4: teleported during Portal 2
 
-    state N/A {
     s5: Behrmy stays up and bubbles
     s6: Call out so other healer stays
     s5 --> s6: early teleport
-    }
 ```
 </details>
 <br>
@@ -75,7 +73,6 @@ stateDiagram-v2
 | Group | Hero |
 | ----------- | ----------- |
 | [G1] Melee | Hero after 1st Taunt |
-| [G2] Hunter | Manatide Hero after 1st Taunt |
 | [G3] Warlock | Exhaustion Hero after 1st Taunt |
 | [G2] Hunter | Hero off Cooldown |
 | [G3] Warlock | Hero off Cooldown |
@@ -86,13 +83,13 @@ stateDiagram-v2
 ```mermaid
 stateDiagram-v2
     t2: Pickii
-    h4: Beek
-    h5: Manatide
+    h4: Behrmy
+    h5: Exhaustion
     h6: Elji
-    rr1: Firedestruct
-    rr2: Rich
+    rr1: Shar
+    rr2: Firedestruct
     rr3: Junzi
-    rr4: Shar
+    rr4: Beek
     rr5: Brooks
     rr6: Zarj
     
@@ -112,13 +109,13 @@ stateDiagram-v2
     t1: Abe
     h1: Bearbob
     h2: Levi
-    h3: Exhaustion
-    r1: Dan
-    r2: Refinement
-    r3: Victra
+    h3: Manatide
+    r1: Akugi
+    r2: Kepa
+    r3: Rich
     r4: Twyrp
-    r5: Akugi
-    r6: Corntallis
+    r5: Dan
+    r6: Victra
 
     t1 --> h1
     t1 --> h2
@@ -132,8 +129,8 @@ stateDiagram-v2
 ```
 
 :fire: Attention :fire:
-- Levi positions totems towards mid so all hunters can get buffs
-- No Hpally. Big  tank heal. Healers stick to their assignments. Run as soon as you get burn.
+- Manatide positions totems towards mid so Firedestruct can get buffs.
+- Replicate what we did last week. Big tank heal. Healers stick to their assignments. Run as soon as you get burn.
 
 <br>
 <br>
@@ -149,8 +146,8 @@ stateDiagram-v2
 | Group :x: | Group :small_red_triangle_down: | Group :large_orange_diamond: | Group :large_blue_circle: |
 | ----------- | ----------- | ----------- | ----------- |
 | Melee Group [G1]| Hunter Group [G2]| Mage Group [G4]| Warlock Group [G3]|
-| Beek | Elji | Manatide | Exhaustion |
-| | Stud | | Bearbob |
+| Exhaustion | Elji | Manatide (part of G4) | Behrmy |
+| | Stud | Bearbob | |
 | | | | |
 
 ## Soulstone 
@@ -160,7 +157,7 @@ flowchart LR
     A(Firedestruct) --> B(Elji)
     C(Shar) --> D(Firechild)
     E(Brooks) --> F(Stud)
-    G(Zarj) --> H(Victra)
+    G(Zarj) --> H(Behrmy)
 ```
 
 ## Priest Brez 
@@ -189,7 +186,6 @@ flowchart LR
 | [G3] Warlock | Hero after callout at the beginning |
 | [G4] Mage | Hero after callout at the beginning |
 | == Phase 2 == |
-| [G2] Hunter | Manatide Hero after callout |
 | [G3] Warlock | Exhaustion Hero after callout |
 
 ```mermaid
@@ -213,6 +209,10 @@ gantt
 
 ![MuruP2Map](https://cdn.discordapp.com/attachments/775973769537126412/990372769868947556/Screen_Shot_2022-06-25_at_2.47.07_PM.png)
 
+:fire: Attention :fire:
+- Follow callouts and switch target **ASAP** :fire:
+- P2 survive and pump :fire:
+
 <br>
 <br>
 
@@ -222,13 +222,13 @@ gantt
 journey
     title Hero Timeline
     section Phase 3 (85-55%)
-      [OPTIONAL] Hero Melee & DPS boss: 7: Mana
+      [OPTIONAL] Hero Melee & DPS boss: 0: N/A
     section Phase 4 (55-25%)
-      Hero ALL DPS groups: 7: Bamm, Levi, Junzi, Refine
+      Hero ALL DPS groups: 7: Bamm, Levi, Junzi, Manatide
       [After 1st Shield] Hero Warlock & Push: 7: Exhaustion
 ```
 
-![KJMap](https://cdn.discordapp.com/attachments/775973769537126412/996200066446540870/Screen_Shot_2022-07-11_at_4.41.01_PM.png)
+![KJMap](https://cdn.discordapp.com/attachments/775973769537126412/998717787126108210/Screen_Shot_2022-07-18_at_3.26.57_PM.png)
 
 ```mermaid
 journey
