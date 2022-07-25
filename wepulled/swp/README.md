@@ -4,10 +4,9 @@
 
 ```mermaid
 flowchart LR
-    A(Firedestruct) --> B(Elji)
     C(Shar) --> D(Pickii)
     E(Brooks) --> F(Abe)
-    G(Zarj) --> H(Stud)
+    G(Zarj) --> H(Rene)
 ```
 
 # Kalecgos
@@ -15,8 +14,8 @@ flowchart LR
 | Group | Hero |
 | ----------- | ----------- |
 | [G2] Hunter | Hero in Demon Realm |
-| [G4] Mage | Hero in Demon Realm |
 | [G3] Warlock | Hero in Demon Realm |
+| [G4] Mage | Hero in Demon Realm |
 
 ```mermaid
 gantt
@@ -33,7 +32,7 @@ gantt
 
     section Portal 3
     Warlock Group    :p3, 01:00, 1m
-    Levi +  Elji     :crit, 01:00, 1m
+    Levi +  Healess     :crit, 01:00, 1m
 
     section Portal 4
     Exhaustion      :crit, p4, 01:30, 1m
@@ -53,7 +52,7 @@ stateDiagram-v2
     s1 --> s2: teleported during Portal 1
 
     s3: Healer in Portal 3 or 4 Group
-    s4: Elji stays up
+    s4: Healess stays up
     s3 --> s4: teleported during Portal 2
 
     s5: Behrmy stays up and bubbles
@@ -73,6 +72,7 @@ stateDiagram-v2
 | Group | Hero |
 | ----------- | ----------- |
 | [G1] Melee | Hero after 1st Taunt |
+| [G2] Hunter | Manatide Hero after 1st Taunt |
 | [G3] Warlock | Exhaustion Hero after 1st Taunt |
 | [G2] Hunter | Hero off Cooldown |
 | [G3] Warlock | Hero off Cooldown |
@@ -85,9 +85,9 @@ stateDiagram-v2
     t2: Pickii
     h4: Behrmy
     h5: Exhaustion
-    h6: Elji
+    h6: Healess
     rr1: Shar
-    rr2: Firedestruct
+    rr2: Dan
     rr3: Junzi
     rr4: Beek
     rr5: Brooks
@@ -114,7 +114,7 @@ stateDiagram-v2
     r2: Kepa
     r3: Rich
     r4: Twyrp
-    r5: Dan
+    r5: Refinement
     r6: Victra
 
     t1 --> h1
@@ -129,7 +129,7 @@ stateDiagram-v2
 ```
 
 :fire: Attention :fire:
-- Manatide positions totems towards mid so Firedestruct can get buffs.
+- Refinement positions totems towards mid so Dan can get buffs.
 - Replicate what we did last week. Big tank heal. Healers stick to their assignments. Run as soon as you get burn.
 
 <br>
@@ -146,25 +146,32 @@ stateDiagram-v2
 | Group :x: | Group :small_red_triangle_down: | Group :large_orange_diamond: | Group :large_blue_circle: |
 | ----------- | ----------- | ----------- | ----------- |
 | Melee Group [G1]| Hunter Group [G2]| Mage Group [G4]| Warlock Group [G3]|
-| Exhaustion | Elji | Manatide (part of G4) | Behrmy |
-| | Stud | Bearbob | |
+| Exhaustion | Healess | Manatide | Behrmy |
+| | Rene | Bearbob | |
 | | | | |
 
 ## Soulstone 
 
 ```mermaid
 flowchart LR
-    A(Firedestruct) --> B(Elji)
     C(Shar) --> D(Firechild)
-    E(Brooks) --> F(Stud)
-    G(Zarj) --> H(Behrmy)
+    E(Brooks) --> F(Behrmy)
+    G(Zarj) --> H(Rene)
+```
+
+## DI
+
+```mermaid
+flowchart LR
+    C(Firechild) --> D(Behrmy) --> E(Rene)
 ```
 
 ## Priest Brez 
 
 ```mermaid
 flowchart LR
-    A(Bearbob) --> B(Any priest dies without SS)
+    A(Bearbob) --> B(Healess)
+    C(Beek) --> D(Victra)
 ```
 
 <br>
@@ -186,6 +193,7 @@ flowchart LR
 | [G3] Warlock | Hero after callout at the beginning |
 | [G4] Mage | Hero after callout at the beginning |
 | == Phase 2 == |
+| [G2] Hunter | Manatide Hero after callout |
 | [G3] Warlock | Exhaustion Hero after callout |
 
 ```mermaid
@@ -222,13 +230,13 @@ gantt
 journey
     title Hero Timeline
     section Phase 3 (85-55%)
-      [OPTIONAL] Hero Melee & DPS boss: 0: N/A
+      [OPTIONAL] Hero Melee & DPS boss: 0: Manatide
     section Phase 4 (55-25%)
-      Hero ALL DPS groups: 7: Bamm, Levi, Junzi, Manatide
+      Hero ALL DPS groups: 7: Bamm/Stud, Levi, Junzi, Refinement
       [After 1st Shield] Hero Warlock & Push: 7: Exhaustion
 ```
 
-![KJMap](https://cdn.discordapp.com/attachments/775973769537126412/998717787126108210/Screen_Shot_2022-07-18_at_3.26.57_PM.png)
+![KJMap](https://cdn.discordapp.com/attachments/775973769537126412/1001100196308058193/Screen_Shot_2022-07-25_at_5.13.13_AM.png)
 
 ```mermaid
 journey
