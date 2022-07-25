@@ -71,9 +71,9 @@ stateDiagram-v2
 
 | Group | Hero |
 | ----------- | ----------- |
-| [G1] Melee | Hero after 1st Taunt |
-| [G2] Hunter | Manatide Hero after 1st Taunt |
-| [G3] Warlock | Exhaustion Hero after 1st Taunt |
+| [G1] Melee | Hero when Shar calls out |
+| [G2] Hunter | Manatide Hero when Shar calls out |
+| [G3] Warlock | Exhaustion Hero when Shar calls out |
 | [G2] Hunter | Hero off Cooldown |
 | [G3] Warlock | Hero off Cooldown |
 | [G4] Mage | Hero off Cooldown |
