@@ -87,8 +87,8 @@ stateDiagram-v2
     h5: Exhaustion
     h6: Healess
     rr1: Shar
-    rr2: Dan
-    rr3: Junzi
+    
+    rr3: Refinement
     rr4: Beek
     rr5: Brooks
     rr6: Zarj
@@ -96,9 +96,9 @@ stateDiagram-v2
     rr5 --> h4
     h4 --> t2
     h5 --> t2
-    h6 --> rr2
+    h6 --> t2
     rr1 --> rr3
-    rr2 --> t2
+    
     rr3 --> h5
     rr4 --> h5
     rr6 --> rr4
@@ -108,13 +108,13 @@ stateDiagram-v2
 stateDiagram-v2
     t1: Abe
     h1: Bearbob
-    h2: Levi
-    h3: Manatide
+    h2: Manatide
+    h3: Levi
     r1: Akugi
     r2: Kepa
     r3: Rich
     r4: Twyrp
-    r5: Refinement
+    r5: Dan
     r6: Victra
 
     t1 --> h1
@@ -129,7 +129,8 @@ stateDiagram-v2
 ```
 
 :fire: Attention :fire:
-- Refinement positions totems towards mid so Dan can get buffs.
+- Levi positions totems towards mid so Healess can get buffs.
+- Less ranges this week on Bear side. Watch out your HP.
 - Replicate what we did last week. Big tank heal. Healers stick to their assignments. Run as soon as you get burn.
 
 <br>
@@ -146,9 +147,8 @@ stateDiagram-v2
 | Group :x: | Group :small_red_triangle_down: | Group :large_orange_diamond: | Group :large_blue_circle: |
 | ----------- | ----------- | ----------- | ----------- |
 | Melee Group [G1]| Hunter Group [G2]| Mage Group [G4]| Warlock Group [G3]|
-| Exhaustion | Healess | Manatide | Behrmy |
-| | Rene | Bearbob | |
-| | | | |
+| Exhaustion | Healess | Bearbob | Behrmy |
+| | Manatide | Rene | |
 
 ## Soulstone 
 
@@ -232,7 +232,7 @@ journey
     section Phase 3 (85-55%)
       [OPTIONAL] Hero Melee & DPS boss: 0: Manatide
     section Phase 4 (55-25%)
-      Hero ALL DPS groups: 7: Bamm/Stud, Levi, Junzi, Refinement
+      Hero ALL DPS groups: 7: Bamm, Levi, Stud, Refinement
       [After 1st Shield] Hero Warlock & Push: 7: Exhaustion
 ```
 
