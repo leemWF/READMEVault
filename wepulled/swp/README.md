@@ -4,7 +4,7 @@
 
 ```mermaid
 flowchart LR
-    C(Firedestruct) --> D(Pickii)
+    C(Shar) --> D(Pickii)
     E(Brooks) --> F(Abe)
     G(Zarj) --> H(Rene)
     A(Rin) --> B(Elji)
@@ -16,7 +16,7 @@ flowchart LR
 | ----------- | ----------- |
 | [G2] Hunter | Hero in Demon Realm |
 | [G4] Mage | Hero in Demon Realm |
-| [G1] Melee | Hero in Demon Realm |
+| [G3] Warlock | Hero in Demon Realm |
 
 ```mermaid
 gantt
@@ -25,22 +25,21 @@ gantt
     axisFormat %M:%S
 
     section Portal 1
-    Warlock Group           :p1, 00:00, 1m
+    Melee Group           :p1, 00:00, 1m
     Manatide + Bearbob     :crit, 00:00, 1m
     
     section Portal 2
     Hunter & Mage Group      :p2, 00:30, 1m
 
     section Portal 3
-    Melee Group    :p3, 01:00, 1m
+    Warlock Group    :p3, 01:00, 1m
     Levi +  Elji     :crit, 01:00, 1m
 
     section Portal 4
-    Exhaustion      :crit, p4, 01:30, 1m
+    Healess      :crit, p4, 01:30, 1m
 ```
 
 :fire: Attention :fire:
-- :fire: **Melee Pumping Week: Pay attention to portal rotation + hero changes** :fire:
 - After 1st full portal rotation, wait for Blair's callout before further pushing the dragon
 - Hybrid classes help with raid healing
 
@@ -73,11 +72,10 @@ stateDiagram-v2
 
 | Group | Hero |
 | ----------- | ----------- |
-| [G1] Melee | Exhaustion Hero when Shar calls out |
-| [G2] Hunter | Manatide Hero when Shar calls out |
-| [G3] Warlock | Hero when Shar calls out |
+| [G1] Melee | Bamm Hero when Shar calls out |
+| [G3] Warlock | Levi Hero when Shar calls out |
 | [G2] Hunter | Hero off Cooldown |
-| [G1] Melee | Hero off Cooldown |
+| [G3] Warlock | Hero off Cooldown |
 | [G4] Mage | Hero off Cooldown |
 
 ![BrutallusMap](https://cdn.discordapp.com/attachments/775973769537126412/990358559348912189/Screen_Shot_2022-06-25_at_1.50.55_PM.png)
@@ -86,14 +84,14 @@ stateDiagram-v2
 stateDiagram-v2
     t2: Pickii
     h4: Behrmy
-    h5: Exhaustion
+    h5: Levi
     h6: Elji
-    rr1: Firedestruct
+    rr1: Rin
     
-    rr3: Shar
+    rr3: Refinement
     rr4: Beek
     rr5: Brooks
-    rr6: Zarj
+    rr6: Shar
     
     rr5 --> h4
     h4 --> t2
@@ -111,12 +109,12 @@ stateDiagram-v2
     t1: Abe
     h1: Bearbob
     h2: Manatide
-    h3: Levi
+    h3: Healess
     r1: Akugi
     r2: Kepa
-    r3: Rich
+    r3: Jango
     r4: Twyrp
-    r5: Rin
+    r5: Zarj
     r6: Victra
 
     t1 --> h1
@@ -131,8 +129,7 @@ stateDiagram-v2
 ```
 
 :fire: Attention :fire:
-- Less ranges this week on Bear side. Watch out your HP.
-- Replicate what we did last week. Big tank heal. Healers stick to their assignments. Run as soon as you get burn.
+- Big tank heal. Healers stick to their assignments. Run as soon as you get burn.
 
 <br>
 <br>
@@ -148,16 +145,17 @@ stateDiagram-v2
 | Group :x: | Group :small_red_triangle_down: | Group :large_orange_diamond: | Group :large_blue_circle: |
 | ----------- | ----------- | ----------- | ----------- |
 | Melee Group [G1]| Hunter Group [G2]| Mage Group [G4]| Warlock Group [G3]|
-| Exhaustion | Behrmy | Bearbob | Elji |
-| | Manatide | Rene | |
+| Healess | Behrmy | Bearbob | Elji |
+| | Levi | Rene | |
 
 ## Soulstone 
 
 ```mermaid
 flowchart LR
-    C(Firedestruct) --> D(Firechild)
+    C(Rin) --> D(Firechild)
     E(Brooks) --> F(Behrmy)
     G(Zarj) --> H(Rene)
+    A(Shar) --> B(Healess)
 ```
 
 ## DI
@@ -174,6 +172,11 @@ flowchart LR
     A(Bearbob) --> B(Elji)
     C(Beek) --> D(Victra)
 ```
+
+:fire: Attention :fire:
+- Chase boss to increase DPS uptime when air phase ends
+- Only Pickii calls out during air phase to avoid mixed signals
+- MD: Healess => Melee/Victra => Hunter&Mage/Elji => Warlock/Mage
 
 <br>
 <br>
@@ -194,8 +197,7 @@ flowchart LR
 | [G3] Warlock | Hero after callout at the beginning |
 | [G4] Mage | Hero after callout at the beginning |
 | == Phase 2 == |
-| [G2] Hunter | Manatide Hero after callout |
-| [G1] Melee | Exhaustion Hero after callout |
+| [G3] Warlock | Levi Hero after callout |
 
 ```mermaid
 gantt
@@ -220,7 +222,7 @@ gantt
 
 :fire: Attention :fire:
 - Follow callouts and switch target **ASAP** :fire:
-- **Only 1 warlock** will seed for 1st wave of Humanoids
+- **Only 1 warlock Zarj** will seed for 1st wave of Humanoids
 - P2 survive and pump :fire:
 
 <br>
@@ -232,13 +234,13 @@ gantt
 journey
     title Hero Timeline
     section Phase 3 (85-55%)
-      [OPTIONAL] Hero Melee & DPS boss: 0: Exhaustion
+      [OPTIONAL] Hero Melee & DPS boss: 0: N/A
     section Phase 4 (55-25%)
-      Hero ALL DPS groups: 7: Bamm, Levi, Stud, Refinement
-      [After 1st Shield] Hero Warlock & Push: 7: Manatide
+      Hero ALL DPS groups: 7: Bamm, Stud, Refinement, Manatide
+      [After 1st Shield] Hero Warlock & Push: 7: Levi
 ```
 
-![KJMap](https://cdn.discordapp.com/attachments/775973769537126412/1001100196308058193/Screen_Shot_2022-07-25_at_5.13.13_AM.png)
+![KJMap](https://cdn.discordapp.com/attachments/775973769537126412/1006361134749712435/Screen_Shot_2022-08-08_at_5.38.19_PM.png)
 
 ```mermaid
 journey
