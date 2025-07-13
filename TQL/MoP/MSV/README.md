@@ -68,6 +68,8 @@ Alternative
   - wildfire: drop in assigned location and AVOID at all cost
   - drawfire: avoid in the path and use special to block (huge raid dmg)   
 
+<img width="1019" height="663" alt="image" src="https://github.com/user-attachments/assets/eb586a3c-772d-4d17-8fcd-84fde8b34d10" />
+
 ### 🛡 Tanks
 - Pre‑pull: Tank 1 → Barrier/right, Tank 2 → Reversal/left (dk copy).
 - 2 stacks tank swap
