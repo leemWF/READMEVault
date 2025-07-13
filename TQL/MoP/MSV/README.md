@@ -1,5 +1,6 @@
 ## The Stone Guard
 
+### Abilities 
 - Amethyst Guardian - Purple/Shadow
   - void zone
 - Cobalt Guardian - Blue/Arcane
@@ -9,7 +10,13 @@
 - Jasper Guardian - Red/Fire
   - chain (apart for 15sec to break, cumulative, not continuous)
 
-- whoever with debuff boss, always grab lower energy boss too (tank comm)
+### Tanking
+Generally whoever with debuff boss, always grab lower energy boss too (tank comm)
+
+Alternative
+- tank1: always 2, always keep 1 with debuff to you
+- tank2: always 1, no debuff boss and taunt the one with highest energy
+  - [H] and when stablized, help with tiles and can use tanking CD
 
 <img width="1090" height="652" alt="image" src="https://github.com/user-attachments/assets/fe87f473-c482-401f-9e87-0549d57f7bb4" />
 
