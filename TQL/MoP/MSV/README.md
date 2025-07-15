@@ -1,6 +1,6 @@
 ## The Stone Guard
 
-### Abilities 
+### 💀 Abilities 
 - Amethyst Guardian - Purple/Shadow
   - void zone
 - Cobalt Guardian - Blue/Arcane
