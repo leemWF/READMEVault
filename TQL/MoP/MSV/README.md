@@ -48,7 +48,7 @@ Alternative
 > - ➡️ Staff → Shield → Fist → Spear (move close to that side to trigger)
 >   - Staff → Fist → Shield → Spear alternatively
 
-### Weapon Abilites
+### 💀 Abilites
 - staff
   - velocity (raid aoe): stack at boss if possible
     - no pre-stack, spread early (under butt)
@@ -89,3 +89,27 @@ Alternative
 
 ### 🧃 Hero
 - At start
+
+## Gara’jal the Spiritbinder
+
+> ✅ Heroic Notes:
+> - Voodoo Dolls reflect 100% of damage.
+>   - Enrage at 6 min. Check DPS.
+> - Frail Soul debuff: everyone in, 3rd heal = help disc + mana refill then out.
+> - Banished tank must kill 3 adds (1 personal red add).
+> - Totem selection/rotation is critical. 
+
+### 💀 Abilities
+
+- Voodoo Dolls: shared damage, current tank (fixate) + 2 players
+  - Banishment: tank with Dolls gets banished after 60s.
+- Shadowy Attacks: frequent physical/shadow damage on current tank (ignore absorb!)
+  - due to comp, 3 heal may be needed, tank: max mitigation + watch linked members + rotate CDs (personal + call raid CD)
+- Spirit Totem: spawns every ~20s → kill to allow 3 closest to enter Spirit World.
+  - banished tank has personal red add
+  - heal gives Spiritual Innervation buff (resource regen); heal to full enable exit
+
+TODO
+----
+Final Phase (20%): No more Spirit Realms. Raid-wide ticking damage. Bloodlust.
+> - No more totems after 20% → final burn phase.
