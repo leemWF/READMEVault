@@ -1,101 +1,45 @@
 ## The Spirit Kings <H/WIP>
 
 > ✅ Heroic Notes:
-> - Boss order is fixed: Qiang → Subetai → Zian → Meng  .
-> - Each defeated King stays alive as incorporeal add, using one retained ability  .
-> - At ~30% HP of each boss, the next King activates, stacking phases  .
-> - 10 min enrage, same as Normal.
+> - Single tank still recommanded.
+> - At ~30% HP of each boss, the next King activates, stacking phases.
 
 ### ⚔️ Abilities (per boss)
 
+- Single tank
+- Boss order is fixed: Qiang → Subetai → Zian → Meng. A lot of movements.
+
 | Boss      | Unique Ability                                | Retained After Death                           |
 |-----------|------------------------------------------------|------------------------------------------------|
-| **Qiang** | Massive Attacks (cleave) / Annihilate         | Flanking Orders – wave of adds across room     |
-| **Subetai** | Rain of Arrows (AOE cone) / Volley         | Pillage – turret adds spawn                    |
-| **Zian**  | Undying Shadows – tank stacking adds          | Undying Shadows retained                       |
-| **Meng**  | Maddening Shout (fear) / Insanity (AOE)       | Retains Insanity/Maddening Shout              |
+| **Qiang/stack** | frontal cone attack split between all affected / AoE attack with 3-second visual effect before cast | warrior add marshing (2 in H), 1-shot mech     |
+| **Subetai/spread** | 8-yard of a random raid member (stun+dmg, arrow kill req or blink) / 3-step frontal cone (smaller but more dmg) | charge a random player and debuff 8yard (less heal/dmg + more dmg taken)     |
+| **Zian/spread**  | shadow blast interruptable (4-5s) / 8yard jumping dmg | Undying Shadows, add → fixates on nearest → dmg all in 10y → void shrinks and spawn add again → 2nd kill req (kite to edge)  |
+| **Meng/spread loosely**  | aoe "MC" → stack and designed aoe  / crazy thought interruptable (5s, >60 not more interrupt)  | Insanity switch between dmg reflection and more tank dmg              |
 
----
-
-### 🧠 Strategy Overview
-
-1. Boss order is fixed: Q → S → Z → M.
-2. Each boss activates at ~30% of the previous.
-3. Incorporeal bosses retain one mechanic.
-4. Requires high movement coordination.
-5. Beat the 10-minute enrage with consistent damage.
-
----
-
-### 🛡 Tank Assignments
-
-- **Main Tank** picks up active boss.
-- Swap on **Undying Shadows** adds or high tank damage.
-- Incorporeal bosses don't need tanking.
-
----
-
-### 🩺 Healer Roles
-
-- Rotate per phase:
-  - **Qiang**: mild cleave → stacked healing.
-  - **Subetai**: spread for Rain of Arrows → raid heals.
-  - **Zian**: tank-heavy phase + add soaks → strong CDs.
-  - **Meng**: fear/Insanity → cleanse and raid CDs.
-- Use healing CDs proactively as phases overlap.
-
----
-
-### 🎯 DPS Responsibilities
-
-- Maintain high uptime for enrage.
-- Handle Pillage turrets and Undying Shadows.
-- Avoid waves/arrows/shouts; plan movement.
-- Dispel and interrupt if applicable.
+Heroic Only: every 40s and not retained 
+- Qiang: reflect bubble → MD or shatter throw
+- Subetai: bubble debuff attacker (less dmg and armory) → stun boss (during stun no debuff)
+- 💀💀💀Zian: 300k reflect bubble → magic dispel
+- Meng: enrage (double insanity) → hunter/rogue/druid dispel
+- Tips
+  - stop a few secs before bubble
+  - DoTs do not trigger bubble 
 
 ---
 
 ### ⚠️ Movement & Warnings
 
-- **Flanking Orders**: dodge sideways.
-- **Rain of Arrows**: spread to minimize overlap.
-- **Undying Shadows**: tank soak and burst.
-- **Maddening Shout**: interrupt/fear protection.
+STOP DPS! STOP DPS! STOP DPS!
+- bubbles
+- high Meng reflection insanity 
 
----
-
-### 🧩 Role Assignments
-
-- **Tank 1**: active boss, Zian cleave soak.
-- **Tank 2**: Pillage adds, Zian assist.
-- **Healer 1**: Qiang/Subetai.
-- **Healer 2**: Zian focus.
-- **Healer 3**: Meng + dispels.
-- **Healer 4 (opt)**: support across phases.
-- **DPS**: split group to handle movement zones, Pillage, and Undying Shadows.
+Tank CD
+- Meng high insanity with dmg buff
 
 ---
 
 ### 🧃 Hero
 
-- Use **at start of Zian** phase for max impact.
-- Alternate: just before Meng for final burst.
+- Use **Zian/Meng** transition phase.
+- Alternate: any transition big problem to us
 
----
-
-### 🔧 Optional Tips
-
-- Assign callouts for movement.
-- Use visual markers.
-- Pre-assign soakers for Zian.
-- WeakAura to track Flanking/Arrows.
-
----
-
-### ✅ TL;DR
-
-- Boss order: Qiang → Subetai → Zian → Meng.
-- Stack mechanics with each new boss.
-- Healers rotate per phase.
-- Strong movement and coordination.
-- Bloodlust during Zian or before Meng.
