@@ -12,23 +12,47 @@
 
 ### ⚔️ Abilities & Stages
 
-#### 📍 Stage 1 – Center Platform (100% → 85%)
-- **Touch of the Titans**: raid-wide buff on center (50% damage/healing increase) [oai_citation:5‡Icy Veins](https://www.icy-veins.com/wow/the-spirit-kings-strategy-guide-normal-heroic?utm_source=chatgpt.com) [oai_citation:6‡Wowpedia](https://wowpedia.fandom.com/wiki/Elegon?utm_source=chatgpt.com).
-- **Overcharged**: stacks every 5 s in the center (5% increased damage taken per stack); removed by exiting [oai_citation:7‡Wowpedia](https://wowpedia.fandom.com/wiki/Elegon?utm_source=chatgpt.com).
-- **Celestial Protectors** spawn: tanks pick up moves to edge; adds must be killed or dragged off before Total Annihilation begins (~20% HP) [oai_citation:8‡Wowpedia](https://wowpedia.fandom.com/wiki/Elegon?utm_source=chatgpt.com).
+<img width="859" height="506" alt="image" src="https://github.com/user-attachments/assets/991b3596-18aa-4681-be6c-cf3394bf38b9" />
 
-#### 🔋 Stage 2 – Draw Power (85% → ~?)
-- Elegon channels **Draw Power**, spawns 6 **Energy Charges** that move to designated **pillars** [oai_citation:9‡Icy Veins](https://www.icy-veins.com/wow/elegon-strategy-guide-normal-heroic?utm_source=chatgpt.com).
-- DPS assigned to each Charge/pillar—killing waves grants stacking debuff on Elegon.
-- Time between channel casts shrinks; ideally kill 4–6 waves. Skip the last wave and burst Elegon.
-- Continue managing **Overcharged** stacks between waves [oai_citation:10‡Icy Veins](https://www.icy-veins.com/wow/elegon-strategy-guide-normal-heroic?utm_source=chatgpt.com).
+⚠️⚠️⚠️Like Rag, boss is stationary!
+
+#### 📍 Stage 1 – Center Platform (85% and 50%, stage ends)
+
+<img width="875" height="497" alt="image" src="https://github.com/user-attachments/assets/aa57ac1e-de29-49b0-8b2b-6206d5c57f61" />
+
+- **Celestial Breath**: front cone
+- **Celestial Protectors** spawn: every 35 seconds and tank required
+  - high arcane dmg to random (with -50% heal debuff, dispellable)
+  - if >25%HP and in outer ring, 90% dmg reduction/if <25%HP, aoe raid
+  - when killed, huge aoe(bug???, radius seems wrong, only tank) (will be buffed if innner ring)
+- 🛡 Tank: alter between boss and add to drop stacks
+- 🎯 DPS: melee NEEDs to reset stack too (can ignore 1st add for boss DPS)
+
+#### 🔋 Stage 2 – Draw Power (when one or more Energy Charges reach their destination)
+
+<img width="738" height="485" alt="image" src="https://github.com/user-attachments/assets/bd0549b5-707f-469c-8cc5-080a396db016" />
+
+- Kill orbs, e.g.
+  - 1/2/3: caster + dk + disc
+  - 4/5/6: melee + hunter + bear + mist
+  - adjust as needed 
+- Time between waves shrinks; kill 4(min)–6(ideal) waves. Skip the last wave and burst Elegon. (10% per wave)
+  - inner ring for Max DPS but reset stack still NEEDED
+  - each add die causes aoe (33250 x 6) and plan personal CSs
+
 
 #### 🌌 Stage 3 – Outer Ring (Triggered by first Charge reaching pillar)
-- Center platform collapses; floor falls (~25 s after Stage 2 ends).
-- Six **Empyreal Focuses** appear; connected by Energy Conduits that block movement [oai_citation:11‡Icy Veins](https://www.icy-veins.com/wow/elegon-strategy-guide-normal-heroic?utm_source=chatgpt.com).
-- Raid splits into **2 groups** (tank + healer + 3 DPS each), positioned each side.
-- Assign each DPS to a pillar Focus; destroy all six.
-- Tanks kite the spawned **Cosmic Sparks** adds within segments; healers ready DPS or soak.
+
+⚠️⚠️⚠️20s inner ring disappear. DONT be greedy! RUN!
+
+- DONT cross before pillar killed!
+- 🛡 Tank: grab adds (spark)
+- 🎯 DPS: pillar → adds
+  - for 2nd, drag all adds into inner and cleave with boss
+- ALL: DODGE lightning zone 
+
+#### 🔥 Burn Phase
+
 
 ---
 
