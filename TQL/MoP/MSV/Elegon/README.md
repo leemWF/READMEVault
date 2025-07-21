@@ -1,12 +1,8 @@
-## Elegon <WIP>
+## Elegon <WIP_H>
 
 > ✅ **Heroic Notes**:
-> - Draw Power now spawns multiple **Energy Charge** waves with decreasing channel time.
-> - Each wave killed buffs Elegon with **10% increased damage taken** (5% in LFR) [oai_citation:0‡Icy Veins](https://www.icy-veins.com/wow/elegon-strategy-guide-normal-heroic?utm_source=chatgpt.com).
-> - **Overcharged** stacks build in the center, dealt by stepping off the platform [oai_citation:1‡Wowpedia](https://wowpedia.fandom.com/wiki/Elegon?utm_source=chatgpt.com).
-> - **Celestial Protectors** spawn early: tanks must drag them off-center before **Total Annihilation** at ~20% HP [oai_citation:2‡Wowpedia](https://wowpedia.fandom.com/wiki/Elegon?utm_source=chatgpt.com).
-> - **Phase 3** begins when a Charge reaches a pillar: floor disappears, splits arena into 6 sectors [oai_citation:3‡Icy Veins](https://www.icy-veins.com/wow/elegon-strategy-guide-normal-heroic?utm_source=chatgpt.com) [oai_citation:4‡Wowpedia](https://wowpedia.fandom.com/wiki/Elegon?utm_source=chatgpt.com).
-> - **10 min enrage** on Heroic mode.
+> - stage 1 heal debuff on 3 instead of 2
+> - LoS between rings 
 
 ---
 
@@ -24,7 +20,9 @@
 - **Celestial Protectors** spawn: every 35 seconds and tank required
   - high arcane dmg to random (with -50% heal debuff, dispellable)
   - if >25%HP and in outer ring, 90% dmg reduction/if <25%HP, aoe raid
-  - when killed, huge aoe(bug???, radius seems wrong, only tank) (will be buffed if innner ring)
+  - when killed, huge aoe (will be buffed if innner ring)
+    - in normal, 200k everyone
+    - in H, 500k to only ppl in outer ring, stun/dot (heal to 80% to dispel) and cannot take aoe for 2min (1 in 10 so tank with CD)
 - 🛡 Tank: alter between boss and add to drop stacks
 - 🎯 DPS: melee NEEDs to reset stack too (can ignore 1st add for boss DPS)
 
@@ -49,72 +47,20 @@
 - 🛡 Tank: grab adds (spark)
 - 🎯 DPS: pillar → adds
   - for 2nd, drag all adds into inner and cleave with boss
-- ALL: DODGE lightning zone 
+- ALL: DODGE lightning zone
+- dmg grows as pillars down and group at entrance
 
 #### 🔥 Burn Phase
 
-
----
-
-### 🛡 Tank Strategy
-
-- **Tank 1**:
-- Stage 1: pick up Celestial Protectors & drag them off-center.
-- Stage 2: assist DPS with Energy Charges or continue boss.
-- Stage 3: kite adds inside segmented zones.
-
-- **Tank 2**:
-- Focus on Protector control in Stage 1.
-- Help handle adds in Stage 3 kiting group’s Sparks.
-
----
-
-### 🩺 Healer Strategy
-
-- **Stage 1**: Raid heals + tank cooldowns for Protector + TA.
-- **Between waves**: Move off-center to clear **Overcharged** stacks.
-- **Stage 2**: Healers help kill Charges, clear stacks.
-- **Stage 3**: One heals each group’s DPS & tank; others handle adds/pillars.
-
----
-
-### 🎯 DPS Assignments
-
-- **Stage 1**: Split ranged/melee on boss & adds; clear stacks regularly.
-- **Stage 2**: Assign 6 DPS groups to pillar positions (use raid markers).
-- Kill waves plenty → skip last wave → max burst Elegon.
-- **Stage 3**: Raid splits for pillars; DPS breaks Focuses, kills Sparks.
-
----
-
-### ⚠️ Warnings & Tips
-
-- Prioritize stack reset each 5 s to avoid lethal **Overcharged** buildup.
-- Melee: step off quickly after Charge death to reset stacks [oai_citation:12‡Wowpedia](https://wowpedia.fandom.com/wiki/Elegon?utm_source=chatgpt.com) [oai_citation:13‡Icy Veins](https://www.icy-veins.com/forums/topic/996-10n-elegon-adds/?utm_source=chatgpt.com) [oai_citation:14‡Icy Veins](https://www.icy-veins.com/wow/elegon-strategy-guide-normal-heroic?utm_source=chatgpt.com).
-- Skip last Charge wave if unable to clear all—shift to Elegon DPS.
-- In Stage 3, don’t cross conduits; use assigned zones to avoid wall damage.
-
----
+- constant AoE, outer ring higher (try all time inner and MAX DPS)
+- STACK and PUMP!
+  - 1 tank takes veng from boss
+  - 1 tank takes veng from adds
+  - tank MAX veng (swap to keep veng and rotate CDs)
+- rotate raid CDs (cookie/rally/banner/smoke/revive/PWB)
 
 ### 🧃 Hero (Heroism/Bloodlust)
 
-- Use after **3–4 waves** in Stage 2, before final Charge → max burst uptime before transition.
-- Alternatively, pop just before entering Stage 3 to assist pillar clears and add management.
+- Burn phase
+- Alternatively, 2nd stage 2 for more dmg stacks (6+) and early boss burn
 
----
-
-### 🔧 Optional Tips
-
-- Mark pillars 1–6 with raid markers in order.
-- DPS should warn when last Charge reach pillar to signal split.
-- Use weak auras to track Draw Power channel / Charge spawn.
-- Assign one raid leader per side in Stage 3 to coordinate kiting & pillar calls.
-
----
-
-### ✅ TL;DR
-
-- **Stage 1**: platform buffs (+ Touch/Overcharged), handle Protectors.
-- **Stage 2**: focus waves, clear Charges → get stacks on Elegon.
-- **Stage 3**: center collapses → arena splits; kill Focuses, manage adds.
-- Strong movement, cleansing Overcharged, and coordinated DPS are key to success.
