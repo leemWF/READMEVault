@@ -16,6 +16,8 @@
 
 ### ⚔️ Abilities & Phases
 
+<img width="893" height="513" alt="image" src="https://github.com/user-attachments/assets/42c04e20-eb98-4a2e-b666-f0f30cd861db" />
+
 #### ▶️ Phase 1: Add Waves (Start → ~90s)
 - Waves every 15s (red 5s then spawn):
 - **Emperor’s Rage x2** (fixate on random raid member).
