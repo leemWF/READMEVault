@@ -22,6 +22,7 @@
 	- stacking DoT (shadow, 3sec)
 	- 10% per stack dmg increase both friendly and hostile, 10y
 - 2 main rotation (+ 1 backup) with gate (esp during push)
+	- 5-10 stacks 
 	- lock/hunter
 	- ele?
 - avoid others and debuff only boss or adds
