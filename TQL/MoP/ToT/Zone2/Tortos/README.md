@@ -42,7 +42,7 @@ Tortos is a **stationary boss encounter** with a unique turtle-kicking mechanic.
 - ✅ **Shell Block** - Turtle becomes immune at low HP, can be kicked
 
 **Vampiric Cave Bats (Wave every 30 seconds):**
-- 🔴 **Drain the Weak** - If target below 350k HP, bats heal for 50x damage dealt
+- 🔴 **Drain the Weak** - If target below 350k(550k heroic) HP, bats heal for 50x damage dealt
 - Must be killed before they stack up
 
 ---
