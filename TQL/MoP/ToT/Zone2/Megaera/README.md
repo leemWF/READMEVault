@@ -5,6 +5,8 @@ Megaera is a **hydra encounter** where you fight multiple heads in sequence. You
 
 **Core Mechanic:** Kill heads near platform (14% boss HP each) → They respawn at back of cave → Back heads cast abilities → Repeat until 7 heads dead
 
+<img width="863" height="635" alt="image" src="https://github.com/user-attachments/assets/c233e505-6d03-44fa-9d72-ef4c8510a0e6" />
+
 ---
 
 ## 🐲 **THE THREE HEAD TYPES**
