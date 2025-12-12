@@ -5,6 +5,8 @@ Durumu is a **three-phase cyclical encounter** requiring precise execution. The 
 
 **Core Mechanic:** Normal Phase → Colorblind Phase (find/kill adds with light cones) → Normal Phase → Disintegration Beam (follow safe zone) → Repeat
 
+<img width="1074" height="655" alt="image" src="https://github.com/user-attachments/assets/3eec4c6e-2aa8-4c3b-af13-4e11f07f6e54" />
+
 ---
 
 ## 🎯 **THE THREE PHASES**
