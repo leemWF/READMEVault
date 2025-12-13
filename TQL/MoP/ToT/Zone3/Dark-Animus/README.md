@@ -5,6 +5,8 @@
 **Tanks:** 2 | **Healers:** 2-3 (10M) / 5-7 (25M)  
 **Key Mechanic:** Anima resource management - concentrate Anima into fewest golems possible
 
+<img width="926" height="665" alt="image" src="https://github.com/user-attachments/assets/d001a514-5118-415c-807b-320431175076" />
+
 ---
 
 ## 💀 DEADLY MECHANISMS
